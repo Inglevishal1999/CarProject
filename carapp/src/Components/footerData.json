@@ -1,0 +1,34 @@
+{
+    "menus": [
+      {
+        "title": "Our Product",
+        "items": ["Career", "Car", "Packages", "Features", "Priceline"]
+      },
+      {
+        "title": "Resources",
+        "items": ["Download", "Help Centre", "Guides", "Partner Network", "Cruises", "Developer"]
+      },
+      {
+        "title": "About Rentcars",
+        "items": ["Why choose us", "Our Story", "Investor Relations", "Press Center", "Advertise"]
+      }
+    ],
+    "socials": [
+      {
+        "name": "Facebook",
+        "icon": "Facebook",
+        "url": "#"
+      },
+      {
+        "name": "Instagram",
+        "icon": "Instagram",
+        "url": "#"
+      },
+      {
+        "name": "Youtube",
+        "icon": "Youtube",
+        "url": "#"
+      }
+    ]
+  }
+  
