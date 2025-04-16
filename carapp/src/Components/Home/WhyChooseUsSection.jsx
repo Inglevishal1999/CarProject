@@ -3,10 +3,10 @@ import leftAdui from "../../assets/HomePage/Car logos/audi.png";
 
 const WhyChooseUsSection = () => {
   return (
-    <div className="w-full bg-blue-50">
-      <div className="max-w-8xl mx-auto px-4 py-1 flex flex-col md:flex-row items-center">
+    <div className="w-full bg-blue-50 py-12">
+      <div className="max-w-8xl mx-auto px-4 flex flex-col md:flex-row items-center">
         {/* Left side - Car Image */}
-        <div className="w-full md:w-1/2 flex items-center justify-center h-[250px] md:h-[450px] relative">
+        <div className="w-full md:w-1/2 flex items-center justify-center h-[250px] md:h-[450px] relative mb-8 md:mb-0">
           <img 
             src={leftAdui} 
             alt="Luxury Audi Sports Car" 
@@ -15,7 +15,7 @@ const WhyChooseUsSection = () => {
         </div>
 
         {/* Right side - Content */}
-        <div className="w-full md:w-1/2 md:pl-12 mt-8 md:mt-0">
+        <div className="w-full md:w-1/2 md:pl-12">
           <div className="inline-block bg-blue-100 text-blue-600 px-6 py-2 rounded-lg mb-4">
             WHY CHOOSE US
           </div>

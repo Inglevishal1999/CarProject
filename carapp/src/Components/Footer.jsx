@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import footerData from '../Components/footerData.json';
 
 const iconMap = {
@@ -57,7 +58,11 @@ const Footer = () => {
               <h3 className="font-bold mb-4">{menu.title}</h3>
               <ul className="space-y-2 text-gray-300 text-sm">
                 {menu.items.map((item, idx) => (
-                  <li key={idx}>{item}</li>
+                  <li key={idx}>
+                    <Link to={`/${item.toLowerCase().replace(/\s+/g, '-')}`} className="hover:text-blue-500">
+                      {item}
+                    </Link>
+                  </li>
                 ))}
               </ul>
             </div>

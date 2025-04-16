@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "name": "Jaguar XE L P250",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car (2).jpg",
+      "rating": 4.8,
+      "reviews": 2435,
+      "passengers": 4,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 4,
+      "price": 1800
+    },
+    {
+      "id": 2,
+      "name": "Audi R8",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car.jpg",
+      "rating": 4.6,
+      "reviews": 1936,
+      "passengers": 2,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 2,
+      "price": 2100
+    },
+    {
+      "id": 3,
+      "name": "BMW M3",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car (2).jpg",
+      "rating": 4.5,
+      "reviews": 2036,
+      "passengers": 4,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 4,
+      "price": 1600
+    },
+    {
+      "id": 4,
+      "name": "Lamborghini Huracan",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car.jpg",
+      "rating": 4.7,
+      "reviews": 2239,
+      "passengers": 2,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 2,
+      "price": 2300
+    },
+    {
+      "id": 5,
+      "name": "Mercedes C-Class",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car.jpg",
+      "rating": 4.5,
+      "reviews": 1780,
+      "passengers": 5,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 4,
+      "price": 1500
+    },
+    {
+      "id": 6,
+      "name": "Porsche 911",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car (2).jpg",
+      "rating": 4.9,
+      "reviews": 2640,
+      "passengers": 2,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 2,
+      "price": 2500
+    },
+    {
+      "id": 7,
+      "name": "Ford Mustang",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car.jpg",
+      "rating": 4.4,
+      "reviews": 1500,
+      "passengers": 4,
+      "transmission": "Manual",
+      "airConditioning": true,
+      "doors": 2,
+      "price": 1400
+    },
+    {
+      "id": 8,
+      "name": "Tesla Model S",
+      "image": "/src/assets/HomePage/Car logos/view-3d-car (2).jpg",
+      "rating": 4.8,
+      "reviews": 2100,
+      "passengers": 5,
+      "transmission": "Auto",
+      "airConditioning": true,
+      "doors": 4,
+      "price": 2000
+    }
+  ]
+  

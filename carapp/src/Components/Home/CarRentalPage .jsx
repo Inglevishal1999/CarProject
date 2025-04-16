@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import logoslider1 from "../../assets/HomePage/Car logos/honda.png";
 import logoslider2 from "../../assets/HomePage/Car logos/jaguar.png";
 import logoslider3 from "../../assets/HomePage/Car logos/nissan.png";
@@ -7,7 +6,7 @@ import logoslider4 from "../../assets/HomePage/Car logos/volvo.png";
 import logoslider5 from "../../assets/HomePage/Car logos/porsche.png";
 import logoslider6 from "../../assets/HomePage/Car logos/acura.png";
 
-// step images
+// Step images
 import step1 from "../../assets/HomePage/Car logos/three cards/shopping.png";
 import step2 from "../../assets/HomePage/Car logos/three cards/location.png";
 import step3 from "../../assets/HomePage/Car logos/three cards/Book Car.png";
@@ -36,7 +35,7 @@ const logos = [
   {
     id: 5,
     img: logoslider5,
-    name: "porsche",
+    name: "Porsche",
   },
   {
     id: 6,
@@ -83,19 +82,19 @@ const CarRentalPage = () => {
 
   return (
     <>
-      <div className="w-full max-w-4xl mx-auto px-4 py-8 ">
+      <div className="w-full max-w-4xl mx-auto px-4 py-8">
         {/* Header Section */}
         <div className="text-center mb-16">
           <div className="inline-block bg-blue-100 text-blue-800 px-6 py-2 rounded-lg mb-6">
             HOW IT WORK
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-            Rent with following 3 working steps
+            Rent with the following 3 working steps
           </h1>
         </div>
 
         {/* Steps Section */}
-        <div className="absoute -z-10 grid grid-cols-1 md:grid-cols-3 gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Step 1 */}
           <div className="flex flex-col items-center">
             <div className="bg-blue-50 p-6 rounded-lg mb-6 w-[90px] h-[80px] flex items-center justify-center">
@@ -118,7 +117,7 @@ const CarRentalPage = () => {
               Pick-up date
             </h2>
             <p className="text-center text-gray-600">
-              Select your pick up date and time to book your car
+              Select your pick-up date and time to book your car
             </p>
           </div>
 
@@ -137,8 +136,8 @@ const CarRentalPage = () => {
         </div>
       </div>
 
-      {/* Car Brands */}
-      <div className="md:mt-10 w-full overflow-hidden ">
+      {/* Car Brands Slider */}
+      <div className="md:mt-10 w-full overflow-hidden">
         <div className="relative max-w-full mx-auto px-4">
           <div
             ref={sliderRef}
@@ -159,8 +158,6 @@ const CarRentalPage = () => {
               ))}
             </div>
           </div>
-
-          {/* Removed white gradient edges */}
         </div>
       </div>
     </>
